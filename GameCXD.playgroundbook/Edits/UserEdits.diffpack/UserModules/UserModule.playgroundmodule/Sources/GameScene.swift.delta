@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{0, 0}</string>
+			<key>OriginalContent</key>
+			<string>
+
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    let numberOfPeople = 6
+    let maxPersonSpeed  = Int.random(in: 120...200)
+    var socialDistancingLength: CGFloat = 1.0
+</string>
+			<key>ModifiedRange</key>
+			<string>{103, 125}</string>
+			<key>OriginalContent</key>
+			<string>    let numberOfPeople = 5
+    let maxPersonSpeed: UInt32 = 100
+    var socialDistancingLength: CGFloat = 1.5
+    
+    
+    
+    
+</string>
+			<key>OriginalRange</key>
+			<string>{105, 130}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    var gameOverWin = false
+</string>
+			<key>ModifiedRange</key>
+			<string>{327, 28}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{334, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    var gameTimer: Timer!
+</string>
+			<key>ModifiedRange</key>
+			<string>{409, 26}</string>
+			<key>OriginalContent</key>
+			<string>    
+    
+</string>
+			<key>OriginalRange</key>
+			<string>{388, 10}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{697, 0}</string>
+			<key>OriginalContent</key>
+			<string>        
+        
+</string>
+			<key>OriginalRange</key>
+			<string>{660, 18}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>        gameTimer = Timer.scheduledTimer(timeInterval: 10, target: self, selector: #selector(clock), userInfo: nil, repeats: false)
+</string>
+			<key>ModifiedRange</key>
+			<string>{1052, 132}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1033, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>        let bg = SKSpriteNode(texture: SKTexture(image: #imageLiteral(resourceName: "wallpaper-2.jpg")))
+//          bg.setScale(2.0)
+</string>
+			<key>ModifiedRange</key>
+			<string>{1399, 134}</string>
+			<key>OriginalContent</key>
+			<string>        let bg = SKSpriteNode(texture: SKTexture(image: #imageLiteral(resourceName: "clouds_back.jpg")))
+        bg.setScale(2.0)
+</string>
+			<key>OriginalRange</key>
+			<string>{1248, 130}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>R</string>
+			<key>ModifiedRange</key>
+			<string>{1752, 1}</string>
+			<key>OriginalContent</key>
+			<string>cl</string>
+			<key>OriginalRange</key>
+			<string>{1597, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>so</string>
+			<key>ModifiedRange</key>
+			<string>{1754, 2}</string>
+			<key>OriginalContent</key>
+			<string>pa</string>
+			<key>OriginalRange</key>
+			<string>{1600, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>sa </string>
+			<key>ModifiedRange</key>
+			<string>{1757, 3}</string>
+			<key>OriginalContent</key>
+			<string>t1199</string>
+			<key>OriginalRange</key>
+			<string>{1603, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1761, 0}</string>
+			<key>OriginalContent</key>
+			<string>28</string>
+			<key>OriginalRange</key>
+			<string>{1609, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>UInt32(</string>
+			<key>ModifiedRange</key>
+			<string>{2581, 7}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{2431, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>)</string>
+			<key>ModifiedRange</key>
+			<string>{2604, 1}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{2447, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>7</string>
+			<key>ModifiedRange</key>
+			<string>{2637, 1}</string>
+			<key>OriginalContent</key>
+			<string>5</string>
+			<key>OriginalRange</key>
+			<string>{2479, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>UInt32(</string>
+			<key>ModifiedRange</key>
+			<string>{2672, 7}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{2514, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>)</string>
+			<key>ModifiedRange</key>
+			<string>{2695, 1}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{2530, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>7</string>
+			<key>ModifiedRange</key>
+			<string>{2728, 1}</string>
+			<key>OriginalContent</key>
+			<string>5</string>
+			<key>OriginalRange</key>
+			<string>{2562, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>st</string>
+			<key>ModifiedRange</key>
+			<string>{2914, 2}</string>
+			<key>OriginalContent</key>
+			<string>ragazzin</string>
+			<key>OriginalRange</key>
+			<string>{2748, 8}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>rm</string>
+			<key>ModifiedRange</key>
+			<string>{2917, 2}</string>
+			<key>OriginalContent</key>
+			<string>-04</string>
+			<key>OriginalRange</key>
+			<string>{2757, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> </string>
+			<key>ModifiedRange</key>
+			<string>{2925, 1}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{2766, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>R</string>
+			<key>ModifiedRange</key>
+			<string>{3224, 1}</string>
+			<key>OriginalContent</key>
+			<string>w</string>
+			<key>OriginalRange</key>
+			<string>{3064, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>sorsa 13</string>
+			<key>ModifiedRange</key>
+			<string>{3226, 8}</string>
+			<key>OriginalContent</key>
+			<string>nd</string>
+			<key>OriginalRange</key>
+			<string>{3066, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4413, 0}</string>
+			<key>OriginalContent</key>
+			<string>        person.physicsBody?.friction = 0.0
+</string>
+			<key>OriginalRange</key>
+			<string>{4247, 43}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>        guard !gameOverWin &amp;&amp; movingPlayer else { return }
+</string>
+			<key>ModifiedRange</key>
+			<string>{5166, 59}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{5043, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    @objc public func clock() {
+        triggerGameOverWin()
+    }
+</string>
+			<key>ModifiedRange</key>
+			<string>{5655, 67}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{5473, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>            gameTimer.invalidate()
+} 
+</string>
+			<key>ModifiedRange</key>
+			<string>{6315, 38}</string>
+			<key>OriginalContent</key>
+			<string>        }
+</string>
+			<key>OriginalRange</key>
+			<string>{6066, 10}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>st</string>
+			<key>ModifiedRange</key>
+			<string>{6471, 2}</string>
+			<key>OriginalContent</key>
+			<string>ragazzin</string>
+			<key>OriginalRange</key>
+			<string>{6194, 8}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>rm</string>
+			<key>ModifiedRange</key>
+			<string>{6474, 2}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{6203, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>2</string>
+			<key>ModifiedRange</key>
+			<string>{6477, 1}</string>
+			<key>OriginalContent</key>
+			<string>04</string>
+			<key>OriginalRange</key>
+			<string>{6204, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>pngf</string>
+			<key>ModifiedRange</key>
+			<string>{6763, 4}</string>
+			<key>OriginalContent</key>
+			<string>R</string>
+			<key>OriginalRange</key>
+			<string>{6491, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>nd.c</string>
+			<key>ModifiedRange</key>
+			<string>{6768, 4}</string>
+			<key>OriginalContent</key>
+			<string>s</string>
+			<key>OriginalRange</key>
+			<string>{6493, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>m-c</string>
+			<key>ModifiedRange</key>
+			<string>{6773, 3}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{6495, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>a</string>
+			<key>ModifiedRange</key>
+			<string>{6777, 1}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{6496, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>h-png-2735083</string>
+			<key>ModifiedRange</key>
+			<string>{6779, 13}</string>
+			<key>OriginalContent</key>
+			<string>a 9</string>
+			<key>OriginalRange</key>
+			<string>{6497, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> </string>
+			<key>ModifiedRange</key>
+			<string>{7130, 1}</string>
+			<key>OriginalContent</key>
+			<string>'VE BEEN INFE</string>
+			<key>OriginalRange</key>
+			<string>{6838, 13}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>RASH</string>
+			<key>ModifiedRange</key>
+			<string>{7132, 4}</string>
+			<key>OriginalContent</key>
+			<string>T</string>
+			<key>OriginalRange</key>
+			<string>{6852, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> THE PLANE</string>
+			<key>ModifiedRange</key>
+			<string>{7138, 10}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{6855, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    
+    func triggerGameOverWin() {
+        gameOverWin = true
+        player.texture = SKTexture(image: #imageLiteral(resourceName: "ragazzino-04.png"))
+        
+        for person in people {
+            person.physicsBody?.velocity = .zero
+        }
+        let gameOverWinLbl = SKLabelNode(text: "YOU SAVED THE PLANE! YAHOOOO!!!!")
+        gameOverWinLbl.fontSize = 70.0
+        gameOverWinLbl.position = CGPoint(x: frame.midX, y: frame.midY)
+        gameOverWinLbl.zPosition = 3
+        gameOverWinLbl.fontColor = .white
+        addChild(gameOverWinLbl)
+        
+    }
+</string>
+			<key>ModifiedRange</key>
+			<string>{7365, 575}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{7072, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>
+</string>
+			<key>ModifiedRange</key>
+			<string>{7943, 1}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{7075, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

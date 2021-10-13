@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import SwiftUI
+import PlaygroundSupport
+
+struct ContentView: View {
+    
+    var body: some View {
+        ZStack {
+            Image(uiImage: UIImage(#imageLiteral(resourceName: "clouds_back.jpg")))
+                .resizable()
+                .scaledToFill()
+                .frame(width: .infinity, height: .infinity)
+            ZStack{
+                Image(uiImage: UIImage(#imageLiteral(resourceName: "familynolife.png")))
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 400, height: 600)
+                    .offset(y: -300)
+            }
+            ZStack{
+                Image(uiImage: UIImage(#imageLiteral(resourceName: "mat'batyaisin-2.png")))
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 400, height: 600)
+                    .offset(y: -80)
+            }
+    
+        VStack (spacing: 0){
+            VStack (alignment: .trailing) {
+                Button("Start Game"){
+                    PlaygroundPage.current.navigateTo(page: .next)
+                } 
+                        .frame(width: 200, height: 100)
+                        .foregroundColor(.white)
+                        .background(Color.blue)
+                        .clipShape(Capsule())
+                        .offset(y: 150)
+                
+            }
+            
+            VStack (alignment: .leading){
+                Button ("Credits") {
+                    PlaygroundPage.current.navigateTo(page: .pageReference(reference: "Page 3"))
+                } 
+                .padding(10)
+                .frame(width: 70, height: 50)
+                .foregroundColor(.white)
+                .background(Color.blue)
+                .cornerRadius(10)
+                .clipShape(Capsule())
+                .offset(x: -200, y: 250)
+            }
+            
+            
+        }
+        }
+    }
+}
+
+
+PlaygroundPage.current.setLiveView(ContentView())
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1952}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

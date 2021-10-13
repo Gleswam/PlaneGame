@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import SwiftUI
+import PlaygroundSupport
+
+struct ContentView: View {
+    
+    var body: some View {
+        ZStack {
+            Image(uiImage: UIImage(#imageLiteral(resourceName: "clouds_back.jpg")))
+                .resizable()
+                .scaledToFill()
+                .frame(width: .infinity, height: .infinity)
+            ZStack{
+                Text("Credits:")
+                    .font(.system(size: 42, weight: .black, design: .serif))
+                    .offset(x: 0, y: -300)
+                
+                Text("Emma Rullo")
+                    .font(.system(size: 42, weight: .black, design: .serif))
+                    .italic()
+                    .offset(x: 0, y: -150)
+                
+                Text("Claudio D'Amore")
+                    .font(.system(size: 42, weight: .black, design: .serif))
+                    .italic()
+                    .offset(x: 0, y: -100)
+                
+                Text("Gleb Malov")
+                    .font(.system(size: 42, weight: .black, design: .serif))
+                    .italic()
+                    .offset(x: 0, y: -50)
+                
+                Text("Antonio Trove'")
+                    .font(.system(size: 42, weight: .black, design: .serif))
+                    .italic()
+                    .offset(x: 0, y: 0)
+                
+                Image(uiImage: UIImage(#imageLiteral(resourceName: "creator-2.png")))
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 100, height: 150)
+                    .offset(x: -150, y: -300)
+            }
+            
+            VStack (spacing: 0){
+                VStack (alignment: .leading){
+                    Button ("Back to menu") {
+                        PlaygroundPage.current.navigateTo(page: .pageReference(reference: "Page 1"))
+                    } 
+                    .padding(10)
+                    .frame(width: 120, height: 50)
+                    .foregroundColor(.white)
+                    .background(Color.blue)
+                    .cornerRadius(10)
+                    .clipShape(Capsule())
+                    .offset(x: -200, y: 250)
+                }
+            }
+        }
+    }
+}
+
+
+PlaygroundPage.current.setLiveView(ContentView())
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 2252}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
