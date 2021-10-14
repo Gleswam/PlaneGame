@@ -33,7 +33,9 @@ struct ContentView: View {
                     .frame(width: 400, height: 600)
                     .offset(y: -80)
             }
-    
+            VStack(alignment: &lt;#T##HorizontalAlignment#&gt;, spacing: &lt;#T##CGFloat?#&gt;, content: &lt;#T##() -&gt; _#&gt;) {
+                
+            }
         VStack (spacing: 0){
             VStack (alignment: .trailing) {
                 Button("Start Game"){
@@ -70,7 +72,7 @@ struct ContentView: View {
 PlaygroundPage.current.setLiveView(ContentView())
 </string>
 			<key>ModifiedRange</key>
-			<string>{1, 1952}</string>
+			<string>{1, 2089}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>
